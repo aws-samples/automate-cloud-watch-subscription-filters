@@ -5,7 +5,7 @@
     "automate_cloud_watch_subscription_filters": "bin/automate_cloud_watch_subscription_filters.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "npm install && tsc",
     "watch": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cdk": "cdk",
